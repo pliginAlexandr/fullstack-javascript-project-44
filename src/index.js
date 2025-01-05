@@ -5,7 +5,7 @@ const getRandomInt = (max) => Math.floor(Math.random() * max);
 
 const isEven = (num) => (num % 2 === 0 ? 'yes' : 'no');
 
-const roundsCount = 3;
+const roundsCount = 3; // количество раундов для всех игр
 
 const gamesLogic = (generateRound, rules) => {
   const name = greetings();
