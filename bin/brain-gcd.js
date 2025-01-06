@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { getRandomInt, gamesLogic } from '../../src/index.js';
+import { getRandomInt, gamesLogic } from '../src/index.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
 

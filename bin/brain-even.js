@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { getRandomInt, isEven, gamesLogic } from '../../src/index.js';
+import { getRandomInt, isEven, gamesLogic } from '../src/index.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 

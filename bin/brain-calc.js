@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { getRandomInt, gamesLogic } from '../../src/index.js';
+import { getRandomInt, gamesLogic } from '../src/index.js';
 
 const rules = 'What is the result of the expression?';
 
