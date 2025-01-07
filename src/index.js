@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import greetings from './cli.js';
 
-const getRandomInt = (max) => Math.floor(Math.random() * max);
+const getRandomInt = (max, min = 1) => Math.floor(Math.random() * (max - min + 1) + min);
 
 const isEven = (num) => (num % 2 === 0 ? 'yes' : 'no');
 
