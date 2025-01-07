@@ -1,19 +1,27 @@
-import { getRandomInt } from "../src";
+#!/usr/bin/env node
+import { getRandomInt } from '../src/index.js';
+import { gamesLogic } from '../src/index.js';
+
+const rules = 'What number is missing in the progression?';
 
 const generateProgressionRound = () => {
-    let progressionLength = 10; //длина арифметической последовательности
-    let increment = getRandomInt(10); 
-    let questionPosition = getRandomInt(progressionLength - 1, 0);
-    let correctAnswer = 0;
-    const question = [];
-    
-    let firstElementOfProgression = getRandomInt(70); //диапазон первого элемента прогрессии
-    for (let i = 0; i < progressionLength; i += 1) {
-        if (questionPosition === i) {
-            question.push('..');
-        }
-        question.push(firstElementOfProgression);
-        firstElementOfProgression += increment;
-    }
-    return []
-}
+  const progressionLength = getRandomInt(10, 5); // длина арифметической последовательности
+  const increment = getRandomInt(10);
+  const firstElementOfProgression = getRandomInt(80, 3);
+  const questionPosition = getRandomInt(progressionLength - 1, 0);
+  const arr = [];
+  let question = '';
+
+  for (let i = 0; i < progressionLength; i += 1) {
+    let nextElementOfProgression = firstElementOfProgression + (increment * i);
+    arr.push(nextElementOfProgression);
+  }
+
+  const correctAnswer = arr[questionPosition];
+  arr[questionPosition] = '..';
+  question = arr.join(' ');
+
+  return [question, String(correctAnswer)];
+};
+
+gamesLogic(generateProgressionRound, rules);
