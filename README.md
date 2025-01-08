@@ -12,3 +12,5 @@ https://asciinema.org/a/OGkVsHM3VWMyXxJ5SfEb4TMZ9
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/5dc44c333a33a98d664d/test_coverage)](https://codeclimate.com/github/pliginAlexandr/fullstack-javascript-project-44/test_coverage)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/5dc44c333a33a98d664d/maintainability)](https://codeclimate.com/github/pliginAlexandr/fullstack-javascript-project-44/maintainability)
+
