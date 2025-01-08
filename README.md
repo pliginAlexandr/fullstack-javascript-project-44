@@ -8,3 +8,7 @@
 ### Ссылка на запись Brain Even
 https://asciinema.org/a/OGkVsHM3VWMyXxJ5SfEb4TMZ9
 
+### CodeClimate
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/5dc44c333a33a98d664d/test_coverage)](https://codeclimate.com/github/pliginAlexandr/fullstack-javascript-project-44/test_coverage)
+
