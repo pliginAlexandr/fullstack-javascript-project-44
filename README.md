@@ -8,6 +8,14 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5dc44c333a33a98d664d/maintainability)](https://codeclimate.com/github/pliginAlexandr/fullstack-javascript-project-44/maintainability)
 
+
+## Учебный проект Brain Games
+Для установки требуется загрузить репозиторий.
+С помощью утилиты "Make" установить зависимости командой "make install".
+Для запуска одной из игр нужно запустить исполняемый файл с помощью команды brain-"название игры".
+Всего доступно 6 игр, одна из которых просто приветствует пользователя.
+
+
 ### Запись работы игры Brain Games в Asciinema
 
 [![asciicast](https://asciinema.org/a/bkQDsBcqUIf6w99vw2o8Fn8iE.svg)](https://asciinema.org/a/bkQDsBcqUIf6w99vw2o8Fn8iE)
