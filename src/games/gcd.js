@@ -3,8 +3,8 @@ import { getRandomInt, gamesLogic } from '../index.js';
 const rules = 'Find the greatest common divisor of given numbers.';
 
 const brainGcdGenerateRound = () => {
-  let num1 = getRandomInt(50);
-  let num2 = getRandomInt(50);
+  let num1 = getRandomInt();
+  let num2 = getRandomInt();
 
   const question = `${num1} ${num2}`;
 

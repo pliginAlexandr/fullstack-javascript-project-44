@@ -19,8 +19,8 @@ const getRandomOperator = () => {
 
 const generateCalcRound = () => {
   const randomOperator = getRandomOperator();
-  const num1 = getRandomInt(50);
-  const num2 = getRandomInt(50);
+  const num1 = getRandomInt();
+  const num2 = getRandomInt();
   const question = `${num1} ${randomOperator} ${num2}`;
   const correctAnswer = calculateCorrectAnswer(num1, num2, randomOperator);
   return [question, correctAnswer];
