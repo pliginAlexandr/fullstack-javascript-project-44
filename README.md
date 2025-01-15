@@ -9,31 +9,42 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/5dc44c333a33a98d664d/maintainability)](https://codeclimate.com/github/pliginAlexandr/fullstack-javascript-project-44/maintainability)
 
 
-## Учебный проект Brain Games
-Для установки требуется загрузить репозиторий.
-С помощью утилиты "Make" установить зависимости командой "make install".
-Для запуска одной из игр нужно запустить исполняемый файл с помощью команды brain-"название игры".
-Всего доступно 6 игр, одна из которых просто приветствует пользователя.
+## Educational project Brain Games
+Installation requires downloading the repository.
+```bash
+git clone https://github.com/pliginAlexandr/fullstack-javascript-project-44.git
+```
+Using the "Make" utility, install dependencies with the "make install" command.
+```bash
+make install
+```
+To launch one of the games, you need to launch the executable file using the brain-"game name" command.
+There are a total of 6 games available, one of which simply welcomes the user.
+Example:
+```bash
+brain-games
+```
 
-
-### Запись работы игры Brain Games в Asciinema
+### Recording the work of the Brain Games game in Asciinema
 
 [![asciicast](https://asciinema.org/a/bkQDsBcqUIf6w99vw2o8Fn8iE.svg)](https://asciinema.org/a/bkQDsBcqUIf6w99vw2o8Fn8iE)
 
-### Запись работы игры Brain Even в Asciinema
+### Recording of the game Brain Even in Asciinema
+
 [![asciicast](https://asciinema.org/a/OGkVsHM3VWMyXxJ5SfEb4TMZ9.svg)](https://asciinema.org/a/OGkVsHM3VWMyXxJ5SfEb4TMZ9)
 
-### Запись игры Brain Calc в Asciinema
+### ЗRecording of the game Brain Calc in Asciinema
+
 [![asciicast](https://asciinema.org/a/esOxBAOMX9aYtnp39tPRMj3Tv.svg)](https://asciinema.org/a/esOxBAOMX9aYtnp39tPRMj3Tv)
 
-### Запись игры Brain GCD в Asciinema
+### Recording of the game Brain GCD in Asciinema
 
 [![asciicast](https://asciinema.org/a/0FjKM9cwI616n7spTSVrE2CNn.svg)](https://asciinema.org/a/0FjKM9cwI616n7spTSVrE2CNn)
 
-### Запись игры Brain Progression в Asciinema
+### Recording of the game Brain Progression in Asciinema
 
 [![asciicast](https://asciinema.org/a/p6zprcPCBNJWAe2UWa8gxEbkJ.svg)](https://asciinema.org/a/p6zprcPCBNJWAe2UWa8gxEbkJ)
 
-### Запись игры Brain Prime в Asciinema 
+### Recording of the game Brain Prime in Asciinema 
 
 [![asciicast](https://asciinema.org/a/VipL0xoEgkrcDGDeNk8Eusa9Q.svg)](https://asciinema.org/a/VipL0xoEgkrcDGDeNk8Eusa9Q)
