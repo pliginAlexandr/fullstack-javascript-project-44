@@ -23,8 +23,6 @@ const gamesLogic = (generateRound, rules) => {
     }
   }
   console.log(`Congratulations, ${name}!`);
-
-  return 0;
 };
 
 export { getRandomInt, isEven, gamesLogic };
