@@ -1,8 +1,5 @@
 import readlineSync from 'readline-sync';
-import getRandomInt from './utils.js';
 import greetings from './cli.js';
-
-const isEven = (num) => (num % 2 === 0 ? 'yes' : 'no');
 
 const roundsCount = 3; // количество раундов для всех игр
 
@@ -25,4 +22,4 @@ const gamesLogic = (generateRound, rules) => {
   console.log(`Congratulations, ${name}!`);
 };
 
-export { getRandomInt, isEven, gamesLogic };
+export default gamesLogic;

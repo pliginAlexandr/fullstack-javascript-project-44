@@ -1,9 +1,12 @@
-import { getRandomInt, isEven, gamesLogic } from '../index.js';
+import getRandomInt from '../utils.js';
+import gamesLogic from '../index.js';
+
+const isEven = (num) => (num % 2 === 0 ? 'yes' : 'no');
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const brainEvenGenerateRound = () => {
-  const question = getRandomInt(); // значение устанавливает максимальное генерируемое число.
+  const question = getRandomInt();
   const correctAnswer = isEven(question);
   return [question, correctAnswer];
 };

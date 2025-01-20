@@ -1,4 +1,5 @@
-import { getRandomInt, gamesLogic } from '../index.js';
+import gamesLogic from '../index.js';
+import getRandomInt from '../utils.js';
 
 const rules = 'What is the result of the expression?';
 
@@ -7,8 +8,7 @@ const calculateCorrectAnswer = (num1, num2, operator) => {
     case '+': return String(num1 + num2);
     case '-': return String(num1 - num2);
     case '*': return String(num1 * num2);
-    default: console.log('Error, wrong operator!');
-      return null;
+    default: throw new Error(`Invalid operator - ${operator}`);
   }
 };
 
