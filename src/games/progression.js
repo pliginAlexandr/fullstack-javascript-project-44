@@ -19,10 +19,10 @@ const generateProgressionRound = () => {
   const firstElementOfProgression = getRandomInt();
   const questionPosition = getRandomInt(0, progressionLength - 1);
 
-  const arr = generateProgression(firstElementOfProgression, increment, progressionLength);
-  const correctAnswer = arr[questionPosition];
-  arr[questionPosition] = '..';
-  const question = arr.join(' ');
+  const progression = generateProgression(firstElementOfProgression, increment, progressionLength);
+  const correctAnswer = progression[questionPosition];
+  progression[questionPosition] = '..';
+  const question = progression.join(' ');
   return [question, String(correctAnswer)];
 };
 
